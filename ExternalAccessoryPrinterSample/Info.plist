@@ -21,5 +21,9 @@
 			</array>
 		</dict>
 	</dict>
+	<key>UISupportedExternalAccessoryProtocols</key>
+	<array>
+		<string>jp.star-m.starpro</string>
+	</array>
 </dict>
 </plist>
