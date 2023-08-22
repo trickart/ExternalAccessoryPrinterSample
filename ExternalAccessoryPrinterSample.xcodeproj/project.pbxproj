@@ -13,6 +13,9 @@
 		F7015B4C2A9395420029BB81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7015B4A2A9395420029BB81 /* Main.storyboard */; };
 		F7015B4E2A9395420029BB81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7015B4D2A9395420029BB81 /* Assets.xcassets */; };
 		F7015B512A9395420029BB81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7015B4F2A9395420029BB81 /* LaunchScreen.storyboard */; };
+		F7DD7C372A939A9D00B02EF9 /* PrinterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DD7C362A939A9D00B02EF9 /* PrinterManager.swift */; };
+		F7DD7C392A939AD700B02EF9 /* Printer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DD7C382A939AD700B02EF9 /* Printer.swift */; };
+		F7DD7C3B2A93DA8F00B02EF9 /* StarPRNTTranslator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DD7C3A2A93DA8F00B02EF9 /* StarPRNTTranslator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		F7015B4D2A9395420029BB81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7015B502A9395420029BB81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7015B522A9395420029BB81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7DD7C362A939A9D00B02EF9 /* PrinterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterManager.swift; sourceTree = "<group>"; };
+		F7DD7C382A939AD700B02EF9 /* Printer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Printer.swift; sourceTree = "<group>"; };
+		F7DD7C3A2A93DA8F00B02EF9 /* StarPRNTTranslator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarPRNTTranslator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				F7015B4D2A9395420029BB81 /* Assets.xcassets */,
 				F7015B4F2A9395420029BB81 /* LaunchScreen.storyboard */,
 				F7015B522A9395420029BB81 /* Info.plist */,
+				F7DD7C382A939AD700B02EF9 /* Printer.swift */,
+				F7DD7C362A939A9D00B02EF9 /* PrinterManager.swift */,
+				F7DD7C3A2A93DA8F00B02EF9 /* StarPRNTTranslator.swift */,
 			);
 			path = ExternalAccessoryPrinterSample;
 			sourceTree = "<group>";
@@ -139,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7015B492A9395420029BB81 /* ViewController.swift in Sources */,
+				F7DD7C392A939AD700B02EF9 /* Printer.swift in Sources */,
 				F7015B452A9395420029BB81 /* AppDelegate.swift in Sources */,
+				F7DD7C372A939A9D00B02EF9 /* PrinterManager.swift in Sources */,
 				F7015B472A9395420029BB81 /* SceneDelegate.swift in Sources */,
+				F7DD7C3B2A93DA8F00B02EF9 /* StarPRNTTranslator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
